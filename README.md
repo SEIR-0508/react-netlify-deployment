@@ -29,5 +29,5 @@ Change your "Build" command to be "CI= npm run build"
 
 Then change your Environment Values to have a Key of "CI" and a value of "False"
 
-![env-fix] (https://i.stack.imgur.com/EHSqn.png)
+![env-fix](https://i.stack.imgur.com/EHSqn.png)
 

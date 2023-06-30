@@ -22,9 +22,9 @@ Now you can select deploy site. This will bring you to the following page:
 ![Screen Shot 2022-11-07 at 2 42 29 PM](https://user-images.githubusercontent.com/100215009/200400035-072d323f-a0e7-448f-9ebf-771e4ed22e84.png)
 It may take a few minutes to a few hours for your react site to fully deploy, so be patient. Once your site is deployed you can edit the domain name and send the URL to friends and family! 
 
-If you are having any issues, try these as a fix:
+If you are having any issues, try these as a fix, navigate to the Site Configuration block of the side menu and :
 
-Change your "Build" command to be "CI= npm run build"
+In "Build and Deploy", change your "Build" command to be "CI= npm run build"
 ![cli-fix](https://i.stack.imgur.com/239it.png)
 
 Then change your Environment Values to have a Key of "CI" and a value of "False"
